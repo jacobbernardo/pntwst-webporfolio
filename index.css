@@ -1,0 +1,30 @@
+/*CSS Reset*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto Slab', serif;
+	color: black;
+ } 
+
+#navbarmain{
+	background: rgb(36,0,0);
+	background: linear-gradient(180deg, rgba(36,0,0,1) 0%, rgba(191,58,180,1) 37%, rgba(255,0,146,1) 100%);
+}
+body{
+	background-image: url(https://c4.wallpaperflare.com/wallpaper/400/781/143/landscape-the-legend-of-zelda-breath-of-the-wild-wallpaper-preview.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 100%;
+
+}
+
+#projects{
+	color: black;
+}
+
+.{
+	color: white !important;
+}
