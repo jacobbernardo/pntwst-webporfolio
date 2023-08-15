@@ -10,6 +10,8 @@
 
 	<!-- CSS Link -->
 	<link rel="stylesheet" type="text/css" href="index.css">
+
+
 </head>
 <body>
 
@@ -45,33 +47,32 @@
             </div>
           </li>
         </ul>
-
       </div>
     </nav>
 <!-- NavBar End -->
 
 <!-- Landing Start -->
 	<section id="landing" class="container-fluid text-center">
-		<div id="about-me" class="text-center mt-4">
+		<div id="about-me" class="text-center">
          
-            <div id="profile" style="width: 25%;" class="container-fluid min-vh-100 ">
+            <div id="profile"  class="container-fluid mb-5">
                 
                 <img id="profilePicture"src="./images/jacob.jpg"/ width="250" class="mt-3 rounded-circle img-fluid">
                
-                <div id="profileText" class="mt-2">
+                <div id="profileText" class="mt-2 row">
                           
-                    <h2 class="border-bottom border-primary">
+                    <h2 class="border-bottom border-primary d-flex justify-content-center col-10 mx-auto">
                         Jacob Joseph Ramonito Bernardo
                     </h2>
                   
-                    <h4 class="text-uppercase">Full-Stack Web Developer</h4>
+                    <h4 class="text-uppercase d-flex justify-content-center col-10 mx-auto">Full-Stack Web Developer</h4>
                 </div>
             </div>
         </div>
 
         <div>
-        	<h1 class="d-lg-flex justify-content-center gap-3">About Me</h1>
-            <p id="introduction" class="d-inline-block text-center my-5" style="width: 50%;">
+        	<h1 class="d-lg-flex justify-content-center mb-5" >About Me</h1>
+            <p id="introduction" class="text-center my-5 p-3 d-none d-lg-inline-block">
                 Hi, I'm Jacob Joseph Ramonito Bernardo. Graduated year 2016 with a course of Bachelor of Industrial Technology
                 major in Computer Technology. I am currently shifting careers from Automation Testing to Software Developing with
                 High hopes that I learn more and excel in the field.
@@ -79,6 +80,13 @@
                 My hobbies are playing video games and watching funny videos.
                	Most of the time, I play Dota2 or Yu-Gi-Oh Master Duel. When I already have my fun in playing video games,
                	I switch to watching funny videos in any platform. Whether it is on Facebook or on Youtube.
+            </p>
+
+            <p id="introduction2" class="text-center my-5 p-3 d-block d-lg-none m-auto">
+            	Hi, I'm Jacob.
+
+            	Graduated computer technology.
+            	An avid gamer.
             </p>
         </div>
 	</section>
@@ -134,25 +142,25 @@
 
 <!-- Contact Start -->
 	<section id="contact" class="container-fluid text-center py-5">
-		<h1 class="d-lg-flex justify-content-center gap-3 text-white my-5">Contact Me</h1>
+		<h1 class="d-lg-flex justify-content-center gap-3 my-5">Contact Me</h1>
 
 			<div class="row mt-5 d-flex justify-content-center">
 				<div class="col-12 col-md-8 col-xl-4">
 					
-					<form method="GET" class="bg-primary rounded p-2">
+					<form class="rounded p-2">
 						
-						<label for="full_name" class="text-white d-flex justify-content-center p-2">Name</label>
+						<label for="full_name" class="d-flex justify-content-center p-2">Name</label>
 						<input type="text" name="full_name" id="full_name" class="rounded mb-2 w-100" required>
 
-						<label for="email" class="text-white d-flex justify-content-center p-2 w-100">Email</label>
+						<label for="email" class="d-flex justify-content-center p-2 w-100">Email</label>
 						<input type="email" name="email" id="email" class="rounded mb-2 w-100" required>
 
-						<label for="message" class="text-white d-flex justify-content-center p-2">Message</label>
+						<label for="message" class="d-flex justify-content-center p-2">Message</label>
 						<textarea name="message" rows="8" id="message" class="rounded mb-2 w-100"></textarea>
 
 						<!-- Button trigger modal -->
-						<button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
-						  Send  
+						<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">
+						  Send Email
 						</button>
 
 						<!-- Modal -->
@@ -161,22 +169,24 @@
 						    <div class="modal-content">
 						      <div class="modal-header">
 						        <h5 class="modal-title text-dark" id="exampleModalLabel">Thank you for contacting us!</h5>
-						        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						        <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
 						      </div>
 						      <div class="modal-body text-dark pb-0">
 						        	<p>Message Successfully Sent</p>
+						        	<img src="./images/yeah bwoi.gif" class="img-fluid">
 						      </div>
 						      <div class="modal-footer">
-						        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 						      </div>
 						    </div>
 						  </div>
 						</div>
+					</form>
 				</div>
 			</div>
-
-		
 	</section>
+
+
 
 
 <!-- Contact End -->
@@ -184,7 +194,7 @@
 <!-- Tools Start -->
 	<div id="tools">
 	<div  class="container-fluid py-5">
-	    <h3 class="text-center my-5 text-white" id="toolused">Tools</h3>
+	    <h1 class="text-center my-5" id="toolused">Tools</h1>
 	    <!-- <div  class="container-fluid d-flex flex-row flex-md-column text-center mt-5 pt-5 pb-5"> -->
 	    <div  class="container-fluid d-flex flex-row flex-md-column text-center">
 	        <div class="my-5">
@@ -199,6 +209,13 @@
 
 
 <!-- Tools End -->
+
+	<footer id="jacob" class="d-lg-flex justify-content-center gap-3 p-3">
+		<div>Jacob Joseph Ramonito Bernardo</div>
+	</footer>
+
+
+
 
 <!-- Bootstrap Dependencies -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
